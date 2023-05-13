@@ -22,60 +22,25 @@
       "descripcion": "Un limpiador facial suave y libre de fragancias que elimina eficazmente las impurezas sin resecar la piel."
     },
     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/mascarilla_exfoliante.png?alt=media&token=bfbb5576-516b-402a-800e-f299d18f0a73",
       "nombre": "Mascarilla exfoliante",
       "marca": "GHI",
       "precio": 18.50,
       "descripcion": "Una mascarilla exfoliante que ayuda a eliminar las células muertas de la piel, dejándola suave y radiante."
     },
     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/mascarilla_exfoliante.png?alt=media&token=bfbb5576-516b-402a-800e-f299d18f0a73",
       "nombre": "Tónico facial refrescante",
       "marca": "JKL",
       "precio": 15.99,
       "descripcion": "Un tónico facial refrescante que equilibra el pH de la piel y la prepara para la aplicación de otros productos."
     },
     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/crema_antiacne.png?alt=media&token=6aa4e644-2812-457a-afaa-2bd891fc73f0",
       "nombre": "Crema antiacné",
       "marca": "MNO",
       "precio": 21.99,
       "descripcion": "Una crema especializada para tratar el acné y reducir la apariencia de manchas. Ayuda a controlar el exceso de grasa."
-    }
-  ],
-  "Maquillaje": [
-    {
-      "nombre": "Base de maquillaje",
-      "marca": "XYZ",
-      "precio": 29.99,
-      "descripcion": "Una base de maquillaje de cobertura media que proporciona un acabado natural y uniforme."
-    },
-    {
-      "nombre": "Labial líquido",
-      "marca": "ABC",
-      "precio": 12.50,
-      "descripcion": "Un labial líquido de larga duración con acabado mate. Disponible en varios tonos."
-    },
-    {
-      "nombre": "Paleta de sombras de ojos",
-      "marca": "DEF",
-      "precio": 24.99,
-      "descripcion": "Una paleta de sombras de ojos con una variedad de tonos mate y brillantes para crear diferentes looks."
-    },
-    {
-      "nombre": "Máscara de pestañas",
-      "marca": "GHI",
-      "precio": 14.99,
-      "descripcion": "Una máscara de pestañas que proporciona volumen y alarga las pestañas sin formar grumos."
-    },
-    {
-      "nombre": "Polvo compacto",
-      "marca": "JKL",
-      "precio": 19.99,
-      "descripcion": "Un polvo compacto que ayuda a matificar la piel y fijar el maquillaje para un acabado duradero."
-    },
-    {
-      "nombre": "Corrector de ojeras",
-      "marca": "LMN",
-      "precio": 15.99,
-      "descripcion": "Un corrector de ojeras de alta cobertura que disimula las imperfecciones y aclara el área de los ojos."
     }
   ],
   "Esmaltes_de_unias": [
@@ -101,18 +66,21 @@
       "descripcion": "Un esmalte de uñas con acabado metálico que añade un toque de brillo y glamour a tus uñas."
     },
     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/esmalte_gel.png?alt=media&token=7dd6e7bf-a54f-4ce7-add3-ed5330b43a6c",
       "nombre": "Esmalte de uñas efecto gel",
       "marca": "JKL",
       "precio": 12.99,
       "descripcion": "Un esmalte de uñas con efecto gel que proporciona un acabado brillante y duradero, sin necesidad de lámpara UV."
     },
     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/esmalte_glitter.png?alt=media&token=05e1313e-2bbe-431f-89d1-729b19e0a6af",
       "nombre": "Esmalte de uñas glitter",
       "marca": "MNO",
       "precio": 8.50,
       "descripcion": "Un esmalte de uñas con partículas de glitter que añade un toque de brillo y diversión a tus uñas."
     },
     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/esmalte_gel2.png?alt=media&token=d9fc66c5-ed74-4b9c-a433-875694ecb0a5",
       "nombre": "Esmalte de uñas en gel",
       "marca": "NOP",
       "precio": 13.99,
@@ -142,18 +110,21 @@
       "descripcion": "Una mousse que proporciona volumen y cuerpo al cabello, creando un aspecto más lleno y con movimiento."
     },
     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/spray_termico.png?alt=media&token=ce63cad2-868b-4e6d-9ccd-05c3cd0ef74c",
       "nombre": "Spray protector térmico",
       "marca": "JKL",
       "precio": 11.99,
       "descripcion": "Un spray que protege el cabello del calor de las herramientas térmicas como planchas y secadores, evitando daños y roturas."
     },
     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/crema_alisadora.png?alt=media&token=3047c54e-0deb-4801-84e9-f64fa500df10",
       "nombre": "Crema alisadora",
       "marca": "MNO",
       "precio": 14.50,
       "descripcion": "Una crema alisadora que ayuda a controlar el frizz y alisar el cabello, dejándolo suave y sedoso."
     },
     {
+      "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/gel_modelador.png?alt=media&token=a8a9d5b7-f9a0-4483-bb72-4a943e9b164c",
       "nombre": "Gel modelador",
       "marca": "PQR",
       "precio": 8.99,
