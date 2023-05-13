@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RostroService } from 'src/app/services/rostro.service';
 
 @Component({
   selector: 'app-rostro',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class RostroComponent {
 
+  constructor(private servicio: RostroService) {}
+  
+  dataRostro: any;
+
+  ngOnInit() {
+    this.servicio.getRostro().subscribe(rostro => {
+      this.dataRostro = rostro;
+    })
+  }
 }
