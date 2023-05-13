@@ -45,7 +45,8 @@
 }
 /**---------------------------------*/
 .contact2{
-    padding-bottom: 30px;
+    padding-top: 30px;
+    display: grid;
 }
 .cta{
     display: inline-block;
