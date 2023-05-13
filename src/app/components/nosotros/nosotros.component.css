@@ -1,0 +1,45 @@
+/**---------------------------------*/
+.contact{
+    padding-top: 20px;
+    text-align: center;
+    align-items: auto;
+    padding-bottom: 20px;
+    color: white;
+}
+.knowledge_container{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin:10px;
+    gap: 1em;
+    align-items: center;
+}
+.knowledge_picture{
+    position: relative;
+    max-width: 300px;
+    object-fit: cover;
+    align-items: center;
+    margin: 1px auto 0;
+    
+}
+.knowledge_img{
+    width: 80%;
+    display: block;
+}
+.knowledge_paragraph{
+    color: white;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.cta{
+    display: inline-block;
+    background-color:#ec60d4;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    padding: 13px 30px;
+    border-radius: 32px;
+}

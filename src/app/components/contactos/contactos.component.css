@@ -1,0 +1,57 @@
+/**---------------------------------*/
+.contact{
+    padding-top: 20px;
+    text-align: center;
+    align-items: auto;
+    padding-bottom: 20px;
+    color: white;
+}
+.about_main{
+    padding-top: 50px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+.about_icons{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 auto; 
+} 
+/**nav_links(incluido en navbar*/
+.nav_links{
+    color: #fff;
+    text-decoration: none;
+}
+.about_icon{
+    width: 40px;
+}
+.about_paragraph{
+    line-height: 1.7;
+}
+/**-----------------------*/
+.gallery_picture{
+    position: relative;
+    max-width: 900px;
+    object-fit: cover;
+    align-items: center;
+    margin: 1px auto 0;
+}
+.contact2{
+    padding-bottom: 30px;
+}
+.cta{
+    display: inline-block;
+    background-color:#ec60d4;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    padding: 13px 30px;
+    border-radius: 32px;
+}

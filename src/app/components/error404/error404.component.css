@@ -1,0 +1,16 @@
+/**---------------------------------*/
+.gallery_picture{
+    position: relative;
+    max-width: 900px;
+    object-fit: cover;
+    align-items: center;
+    margin: 1px auto 0;
+}
+.gallery_img{
+    width: 450px;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 20px;
+}

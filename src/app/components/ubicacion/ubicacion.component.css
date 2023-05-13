@@ -1,0 +1,13 @@
+/**---------------------------------*/
+.gallery_picture{
+    position: relative;
+    max-width: 900px;
+    object-fit: cover;
+    align-items: center;
+    margin: 1px auto 0;
+}
+.maps{
+    border-radius: 15px 15px 15px 15px;
+    width: 1024px;
+    height: 500px;
+}

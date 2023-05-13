@@ -1,0 +1,523 @@
+{
+  "Cuidado_facial": [
+    {
+      "nombre": "Crema facial hidratante",
+      "marca": "XYZ",
+      "precio": 25.99,
+      "descripcion": "Una crema hidratante formulada para proporcionar una hidratación intensa y duradera a la piel. Adecuada para todo tipo de pieles.",
+      "ingredientes": [
+        "Ácido hialurónico",
+        "Aceite de jojoba",
+        "Vitamina E"
+      ]
+    },
+    {
+      "nombre": "Serum rejuvenecedor",
+      "marca": "ABC",
+      "precio": 35.50,
+      "descripcion": "Un serum concentrado que ayuda a reducir los signos de envejecimiento. Mejora la textura de la piel y reduce las arrugas.",
+      "ingredientes": [
+        "Péptidos",
+        "Ácido retinoico",
+        "Coenzima Q10"
+      ]
+    },
+    {
+      "nombre": "Limpiador facial suave",
+      "marca": "DEF",
+      "precio": 12.99,
+      "descripcion": "Un limpiador facial suave y libre de fragancias que elimina eficazmente las impurezas sin resecar la piel.",
+      "ingredientes": [
+        "Aloe vera",
+        "Extracto de manzanilla",
+        "Ácido salicílico"
+      ]
+    },
+    {
+      "nombre": "Mascarilla exfoliante",
+      "marca": "GHI",
+      "precio": 18.50,
+      "descripcion": "Una mascarilla exfoliante que ayuda a eliminar las células muertas de la piel, dejándola suave y radiante.",
+      "ingredientes": [
+        "Arcilla blanca",
+        "Ácido glicólico",
+        "Aceite de almendras"
+      ]
+    },
+    {
+      "nombre": "Tónico facial refrescante",
+      "marca": "JKL",
+      "precio": 15.99,
+      "descripcion": "Un tónico facial refrescante que equilibra el pH de la piel y la prepara para la aplicación de otros productos.",
+      "ingredientes": [
+        "Agua de rosas",
+        "Hamamelis",
+        "Extracto de pepino"
+      ]
+    },
+    {
+      "nombre": "Crema antiacné",
+      "marca": "MNO",
+      "precio": 21.99,
+      "descripcion": "Una crema especializada para tratar el acné y reducir la apariencia de manchas. Ayuda a controlar el exceso de grasa.",
+      "ingredientes": [
+        "Ácido salicílico",
+        "Tea tree oil",
+        "Extracto de caléndula"
+      ]
+    },
+    {
+      "nombre": "Aceite facial nutritivo",
+      "marca": "PQR",
+      "precio": 28.99,
+      "descripcion": "Un aceite facial nutritivo que proporciona hidratación intensa y nutrientes esenciales para la piel. Ideal para pieles secas.",
+      "ingredientes": [
+        "Aceite de argán",
+        "Aceite de rosa mosqueta",
+        "Aceite de jojoba"
+      ]
+    },
+    {
+      "nombre": "Mascarilla de arcilla purificante",
+      "marca": "LMN",
+      "precio": 14.99,
+      "descripcion": "Una mascarilla de arcilla que ayuda a purificar los poros y eliminar el exceso de grasa. Deja la piel limpia y suave.",
+      "ingredientes": [
+        "Arcilla verde",
+        "Extracto de carbón activado",
+        "Aceite de árbol de té"
+      ]
+    },
+    {
+      "nombre": "Gel limpiador de espuma",
+      "marca": "RST",
+      "precio": 17.50,
+      "descripcion": "Un gel limpiador que se transforma en una espuma suave para eliminar suavemente las impurezas y el maquillaje.",
+      "ingredientes": [
+        "Aloe vera",
+        "Extracto de pepino",
+        "Ácido láctico"
+      ]
+    },
+    {
+      "nombre": "Aceite desmaquillante",
+      "marca": "UVW",
+      "precio": 21.99,
+      "descripcion": "Un aceite ligero que disuelve eficazmente el maquillaje, incluso el resistente al agua, dejando la piel limpia y suave.",
+      "ingredientes": [
+        "Aceite de almendras",
+        "Aceite de semilla de uva",
+        "Vitamina E"
+      ]
+    },
+    {
+      "nombre": "Crema facial antiarrugas",
+      "marca": "XYZ",
+      "precio": 34.99,
+      "descripcion": "Una crema antiarrugas que ayuda a reducir la apariencia de líneas finas y arrugas, dejando la piel más firme y rejuvenecida.",
+      "ingredientes": [
+        "Péptidos",
+        "Ácido hialurónico",
+        "Aceite de rosa mosqueta"
+      ]
+    },
+    {
+      "nombre": "Exfoliante facial",
+      "marca": "ABC",
+      "precio": 19.50,
+      "descripcion": "Un exfoliante suave que elimina las células muertas de la piel, dejándola más suave y radiante.",
+      "ingredientes": [
+        "Partículas de bambú",
+        "Aloe vera",
+        "Aceite de almendras"
+      ]
+    },
+    {
+      "nombre": "Mascarilla de hidrogel",
+      "marca": "DEF",
+      "precio": 24.99,
+      "descripcion": "Una mascarilla de hidrogel que proporciona hidratación intensa y revitaliza la piel cansada y deshidratada.",
+      "ingredientes": [
+        "Ácido hialurónico",
+        "Extracto de algas marinas",
+        "Vitamina B5"
+      ]
+    },
+    {
+      "nombre": "Crema de noche reparadora",
+      "marca": "GHI",
+      "precio": 28.50,
+      "descripcion": "Una crema de noche que nutre la piel mientras duermes, reparando los daños y mejorando su textura.",
+      "ingredientes": [
+        "Aceite de rosa mosqueta",
+        "Colágeno",
+        "Ácido láctico"
+      ]
+    },
+    {
+      "nombre": "Protector solar facial",
+      "marca": "JKL",
+      "precio": 16.99,
+      "descripcion": "Un protector solar facial ligero y de amplio espectro que protege la piel contra los rayos UVA y UVB.",
+      "ingredientes": [
+        "Óxido de zinc",
+        "Dióxido de titanio",
+        "Vitamina E"
+      ]
+    }
+  ],
+  "Maquillaje": [
+    {
+      "nombre": "Base de maquillaje",
+      "marca": "XYZ",
+      "precio": 29.99,
+      "descripcion": "Una base de maquillaje de cobertura media que proporciona un acabado natural y uniforme.",
+      "tonos": [
+        "Beige claro",
+        "Beige medio",
+        "Beige oscuro"
+      ]
+    },
+    {
+      "nombre": "Labial líquido",
+      "marca": "ABC",
+      "precio": 12.50,
+      "descripcion": "Un labial líquido de larga duración con acabado mate. Disponible en varios tonos.",
+      "tonos": [
+        "Rojo intenso",
+        "Nude rosado",
+        "Vino tinto"
+      ]
+    },
+    {
+      "nombre": "Paleta de sombras de ojos",
+      "marca": "DEF",
+      "precio": 24.99,
+      "descripcion": "Una paleta de sombras de ojos con una variedad de tonos mate y brillantes para crear diferentes looks.",
+      "tonos": [
+        "Neutrales cálidos",
+        "Tonos ahumados",
+        "Brillantes metálicos"
+      ]
+    },
+    {
+      "nombre": "Máscara de pestañas",
+      "marca": "GHI",
+      "precio": 14.99,
+      "descripcion": "Una máscara de pestañas que proporciona volumen y alarga las pestañas sin formar grumos.",
+      "tonos": [
+        "Negro",
+        "Marrón",
+        "Azul marino"
+      ]
+    },
+    {
+      "nombre": "Polvo compacto",
+      "marca": "JKL",
+      "precio": 19.99,
+      "descripcion": "Un polvo compacto que ayuda a matificar la piel y fijar el maquillaje para un acabado duradero.",
+      "tonos": [
+        "Translúcido",
+        "Beige claro",
+        "Beige medio"
+      ]
+    },
+    {
+      "nombre": "Corrector de ojeras",
+      "marca": "LMN",
+      "precio": 15.99,
+      "descripcion": "Un corrector de ojeras de alta cobertura que disimula las imperfecciones y aclara el área de los ojos.",
+      "tonos": [
+        "Claro",
+        "Medio",
+        "Oscuro"
+      ]
+    },
+    {
+      "nombre": "Rubor en polvo",
+      "marca": "OPQ",
+      "precio": 11.50,
+      "descripcion": "Un rubor en polvo que aporta un toque de color natural a las mejillas y realza el aspecto saludable.",
+      "tonos": [
+        "Rosa suave",
+        "Durazno",
+        "Melocotón"
+      ]
+    },
+    {
+      "nombre": "Delineador líquido",
+      "marca": "RST",
+      "precio": 8.99,
+      "descripcion": "Un delineador líquido de larga duración que permite crear trazos precisos y definidos.",
+      "tonos": [
+        "Negro",
+        "Marrón",
+        "Azul"
+      ]
+    },
+    {
+      "nombre": "Paleta de contorno",
+      "marca": "UVW",
+      "precio": 27.99,
+      "descripcion": "Una paleta de contorno que incluye tonos para resaltar, broncear y esculpir el rostro.",
+      "tonos": [
+        "Iluminador",
+        "Bronceador",
+        "Contorno"
+      ]
+    },
+    {
+      "nombre": "Lápiz de cejas",
+      "marca": "XYZ",
+      "precio": 9.99,
+      "descripcion": "Un lápiz de cejas de precisión que ayuda a definir y rellenar las cejas de forma natural.",
+      "tonos": [
+        "Rubio",
+        "Castaño",
+        "Negro"
+      ]
+    },
+    {
+      "nombre": "Primer facial",
+      "marca": "LMN",
+      "precio": 19.99,
+      "descripcion": "Un primer facial que prepara la piel antes de aplicar el maquillaje, suaviza la textura y ayuda a que dure por más tiempo.",
+      "tonos": []
+    },
+    {
+      "nombre": "Pestañas postizas",
+      "marca": "OPQ",
+      "precio": 12.50,
+      "descripcion": "Un juego de pestañas postizas que brindan volumen y longitud, ideales para ocasiones especiales o maquillajes intensos.",
+      "tonos": []
+    },
+    {
+      "nombre": "Bálsamo labial",
+      "marca": "RST",
+      "precio": 6.99,
+      "descripcion": "Un bálsamo labial hidratante que suaviza los labios, proporciona un ligero brillo y los protege del resecamiento.",
+      "tonos": []
+    },
+    {
+      "nombre": "Delineador de labios",
+      "marca": "UVW",
+      "precio": 8.99,
+      "descripcion": "Un delineador de labios que define y contornea los labios, proporcionando un acabado preciso y duradero.",
+      "tonos": [
+        "Rojo",
+        "Nude",
+        "Rosa"
+      ]
+    },
+    {
+      "nombre": "Spray fijador de maquillaje",
+      "marca": "XYZ",
+      "precio": 14.99,
+      "descripcion": "Un spray fijador de maquillaje que ayuda a mantener el maquillaje en su lugar durante todo el día, aportando un acabado fresco.",
+      "tonos": []
+    }
+  ],
+  "Esmaltes_de_unias": [
+    {
+      "nombre": "Esmalte de uñas rojo",
+      "marca": "ABC",
+      "precio": 9.99,
+      "descripcion": "Un esmalte de uñas de color rojo intenso, perfecto para ocasiones especiales o para darle un toque vibrante a tus uñas.",
+      "tonos": []
+    },
+    {
+      "nombre": "Esmalte de uñas nude",
+      "marca": "DEF",
+      "precio": 7.99,
+      "descripcion": "Un esmalte de uñas de tono nude que proporciona un aspecto elegante y sofisticado a tus uñas.",
+      "tonos": []
+    },
+    {
+      "nombre": "Esmalte de uñas metálico",
+      "marca": "GHI",
+      "precio": 10.50,
+      "descripcion": "Un esmalte de uñas con acabado metálico que añade un toque de brillo y glamour a tus uñas.",
+      "tonos": []
+    },
+    {
+      "nombre": "Esmalte de uñas efecto gel",
+      "marca": "JKL",
+      "precio": 12.99,
+      "descripcion": "Un esmalte de uñas con efecto gel que proporciona un acabado brillante y duradero, sin necesidad de lámpara UV.",
+      "tonos": []
+    },
+    {
+      "nombre": "Esmalte de uñas glitter",
+      "marca": "MNO",
+      "precio": 8.50,
+      "descripcion": "Un esmalte de uñas con partículas de glitter que añade un toque de brillo y diversión a tus uñas.",
+      "tonos": []
+    },
+    {
+      "nombre": "Esmalte de uñas holográfico",
+      "marca": "PQR",
+      "precio": 11.99,
+      "descripcion": "Un esmalte de uñas con efecto holográfico que refleja diferentes colores según la luz, creando un aspecto único en tus uñas.",
+      "tonos": []
+    },
+    {
+      "nombre": "Esmalte de uñas mate",
+      "marca": "STU",
+      "precio": 9.50,
+      "descripcion": "Un esmalte de uñas con acabado mate que proporciona un aspecto moderno y sofisticado a tus uñas.",
+      "tonos": []
+    },
+    {
+      "nombre": "Esmalte de uñas de efecto caviar",
+      "marca": "VWX",
+      "precio": 14.99,
+      "descripcion": "Un esmalte de uñas con pequeñas perlas que crean un efecto de caviar en tus uñas, agregando textura y elegancia.",
+      "tonos": []
+    },
+    {
+      "nombre": "Esmalte de uñas termocrómico",
+      "marca": "YZA",
+      "precio": 10.99,
+      "descripcion": "Un esmalte de uñas que cambia de color según la temperatura, brindando un efecto divertido y versátil.",
+      "tonos": []
+    },
+    {
+      "nombre": "Esmalte de uñas magnético",
+      "marca": "BCD",
+      "precio": 13.50,
+      "descripcion": "Un esmalte de uñas con partículas magnéticas que crean diseños en forma de ondas o líneas al utilizar un imán especial.",
+      "tonos": []
+    },
+    {
+      "nombre": "Esmalte de uñas neón",
+      "marca": "EFG",
+      "precio": 8.99,
+      "descripcion": "Un esmalte de uñas con colores neón vibrantes que destacan y llaman la atención en tus uñas.",
+      "tonos": []
+    },
+    {
+      "nombre": "Esmalte de uñas efecto mármol",
+      "marca": "HIJ",
+      "precio": 11.50,
+      "descripcion": "Un esmalte de uñas que crea un efecto mármol con tonos suaves y elegantes, imitando las vetas naturales de la piedra.",
+      "tonos": []
+    },
+    {
+      "nombre": "Esmalte de uñas craquelado",
+      "marca": "KLM",
+      "precio": 9.99,
+      "descripcion": "Un esmalte de uñas que al secarse crea un efecto craquelado, dando un aspecto único y texturizado a tus uñas.",
+      "tonos": []
+    },
+    {
+      "nombre": "Esmalte de uñas en gel",
+      "marca": "NOP",
+      "precio": 13.99,
+      "descripcion": "Un esmalte de uñas en gel que proporciona un acabado brillante y duradero, con una fórmula resistente a los golpes y arañazos.",
+      "tonos": []
+    },
+    {
+      "nombre": "Esmalte de uñas holográfico",
+      "marca": "QRS",
+      "precio": 12.50,
+      "descripcion": "Un esmalte de uñas con efecto holográfico multicolor, que refleja luces brillantes y crea un aspecto futurista en tus uñas.",
+      "tonos": []
+    }
+  ],
+  "Cuidado_capilar": [
+    
+      
+        {
+          "nombre": "Aceite de argán",
+          "marca": "ABC",
+          "precio": 15.99,
+          "descripcion": "Un aceite capilar rico en vitamina E y ácidos grasos, ideal para hidratar, nutrir y suavizar el cabello."
+        },
+        {
+          "nombre": "Serum reparador de puntas abiertas",
+          "marca": "DEF",
+          "precio": 12.50,
+          "descripcion": "Un serum especializado en reparar las puntas abiertas, dejando el cabello suave y con aspecto saludable."
+        },
+        {
+          "nombre": "Mousse voluminizadora",
+          "marca": "GHI",
+          "precio": 9.99,
+          "descripcion": "Una mousse que proporciona volumen y cuerpo al cabello, creando un aspecto más lleno y con movimiento."
+        },
+        {
+          "nombre": "Spray protector térmico",
+          "marca": "JKL",
+          "precio": 11.99,
+          "descripcion": "Un spray que protege el cabello del calor de las herramientas térmicas como planchas y secadores, evitando daños y roturas."
+        },
+        {
+          "nombre": "Crema alisadora",
+          "marca": "MNO",
+          "precio": 14.50,
+          "descripcion": "Una crema alisadora que ayuda a controlar el frizz y alisar el cabello, dejándolo suave y sedoso."
+        },
+        {
+          "nombre": "Gel modelador",
+          "marca": "PQR",
+          "precio": 8.99,
+          "descripcion": "Un gel para peinar que proporciona fijación y control, ideal para crear peinados y estilos diversos."
+        },
+        {
+          "nombre": "Espuma rizadora",
+          "marca": "STU",
+          "precio": 10.50,
+          "descripcion": "Una espuma que define y controla los rizos, aportando volumen y elasticidad al cabello."
+        },
+        {
+          "nombre": "Laca fijadora",
+          "marca": "VWX",
+          "precio": 7.99,
+          "descripcion": "Una laca de fijación fuerte que mantiene el peinado en su lugar durante todo el día, sin dejar residuos visibles."
+        },
+        {
+          "nombre": "Champú en seco",
+          "marca": "YZA",
+          "precio": 9.99,
+          "descripcion": "Un champú en formato aerosol que refresca el cabello y absorbe el exceso de grasa, prolongando la sensación de limpieza."
+        },
+        {
+          "nombre": "Ampolla revitalizante",
+          "marca": "BCD",
+          "precio": 12.99,
+          "descripcion": "Una ampolla concentrada con ingredientes revitalizantes que restaura y rejuvenece el cabello, devolviéndole vitalidad y brillo."
+        },
+        {
+          "nombre": "Tónico capilar",
+          "marca": "HIJ",
+          "precio": 13.99,
+          "descripcion": "Un tónico capilar que fortalece el cuero cabelludo y promueve un crecimiento saludable del cabello."
+        },
+        {
+          "nombre": "Cera modeladora",
+          "marca": "KLM",
+          "precio": 10.99,
+          "descripcion": "Una cera para peinar que permite crear estilos definidos y texturizados, con un acabado mate y control duradero."
+        },
+        {
+          "nombre": "Acondicionador sin enjuague",
+          "marca": "NOP",
+          "precio": 9.50,
+          "descripcion": "Un acondicionador sin necesidad de enjuague que desenreda y suaviza el cabello, brindando protección y nutrición adicional."
+        },
+        {
+          "nombre": "Tratamiento de queratina",
+          "marca": "QRS",
+          "precio": 15.50,
+          "descripcion": "Un tratamiento intensivo con queratina que reconstruye y fortalece el cabello dañado, mejorando su salud y apariencia."
+        },
+        {
+          "nombre": "Aceite esencial para el cuero cabelludo",
+          "marca": "TUV",
+          "precio": 11.99,
+          "descripcion": "Un aceite esencial diseñado para calmar y equilibrar el cuero cabelludo, aliviando la irritación y la picazón."
+        }
+      ]
+    
+  
+}
