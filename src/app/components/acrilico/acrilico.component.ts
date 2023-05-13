@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AcrilicoService } from 'src/app/services/acrilico.service';
 
 @Component({
   selector: 'app-acrilico',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AcrilicoComponent {
 
+  constructor(private servicio: AcrilicoService) {}
+  
+  dataAcrilico: any;
+
+  ngOnInit() {
+    this.servicio.getAcrilico().subscribe(acrilico => {
+      this.dataAcrilico = acrilico;
+    })
+  }
 }
