@@ -1,0 +1,11 @@
+/**---------------------------------*/
+.table {
+    position: relative;
+    object-fit: cover;
+    align-items: center;
+    padding: 30px;
+    margin: 1px auto 1px;
+    color: aliceblue;
+    width: 900px;
+
+}

@@ -1,78 +1,99 @@
 {
   "Cuidado_facial": [
     {
+      "id": 1,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/crema_facial_hidratante.png?alt=media&token=96583cd6-8c9c-4714-a2e1-6ec6f32fb711",
       "nombre": "Crema facial hidratante",
       "marca": "XYZ",
       "precio": 25.99,
+      "cantidad": 100,
       "descripcion": "Una crema hidratante formulada para proporcionar una hidratación intensa y duradera a la piel. Adecuada para todo tipo de pieles."
     },
     {
+      "id": 2,
       "image":"https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/serum_rejuvenecedor.png?alt=media&token=db37ff9b-a7a4-4c43-bead-7f5669249c67",
       "nombre": "Serum rejuvenecedor",
       "marca": "ABC",
       "precio": 35.50,
+      "cantidad": 200,
       "descripcion": "Un serum concentrado que ayuda a reducir los signos de envejecimiento. Mejora la textura de la piel y reduce las arrugas."
     },
     {
+      "id": 3,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/limpiador_facial_suave.png?alt=media&token=28c5242c-3434-415f-82a2-9dcb49dbc712",
       "nombre": "Limpiador facial suave",
       "marca": "DEF",
       "precio": 12.99,
+      "cantidad": 400,
       "descripcion": "Un limpiador facial suave y libre de fragancias que elimina eficazmente las impurezas sin resecar la piel."
     },
     {
+      "id": 4,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/mascarilla_exfoliante.png?alt=media&token=bfbb5576-516b-402a-800e-f299d18f0a73",
       "nombre": "Mascarilla exfoliante",
       "marca": "GHI",
       "precio": 18.50,
+      "cantidad": 100,
       "descripcion": "Una mascarilla exfoliante que ayuda a eliminar las células muertas de la piel, dejándola suave y radiante."
     },
     {
+      "id": 5,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/mascarilla_exfoliante.png?alt=media&token=bfbb5576-516b-402a-800e-f299d18f0a73",
       "nombre": "Tónico facial refrescante",
       "marca": "JKL",
       "precio": 15.99,
+      "cantidad": 400,
       "descripcion": "Un tónico facial refrescante que equilibra el pH de la piel y la prepara para la aplicación de otros productos."
     },
     {
+      "id": 6,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/crema_antiacne.png?alt=media&token=6aa4e644-2812-457a-afaa-2bd891fc73f0",
       "nombre": "Crema antiacné",
       "marca": "MNO",
       "precio": 21.99,
+      "cantidad": 200,
       "descripcion": "Una crema especializada para tratar el acné y reducir la apariencia de manchas. Ayuda a controlar el exceso de grasa."
     }
   ],
   "Esmaltes_de_unias": [
     {
+      "id": 1,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/esmalte_de_u%C3%B1as_rojo.png?alt=media&token=20307519-1def-4939-ad27-ada5ff6ff4d5",
       "nombre": "Esmalte de uñas rojo",
       "marca": "ABC",
       "precio": 9.99,
+      "cantidad": 200,
       "descripcion": "Un esmalte de uñas de color rojo intenso, perfecto para ocasiones especiales o para darle un toque vibrante a tus uñas."
     },
     {
+      "id": 2,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/esmalte_de_u%C3%B1as_nude1.png?alt=media&token=453c21d1-56fb-49b6-ac4a-5bf201d7210e",
       "nombre": "Esmalte de uñas nude",
       "marca": "DEF",
       "precio": 7.99,
+      "cantidad": 200,
       "descripcion": "Un esmalte de uñas de tono nude que proporciona un aspecto elegante y sofisticado a tus uñas."
     },
     {
+      "id": 3,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/esmalte_de_u%C3%B1as_metalico.png?alt=media&token=01bcd835-6ef4-435c-8e30-b0d74461ae3f",
       "nombre": "Esmalte de uñas metálico",
       "marca": "GHI",
       "precio": 10.50,
+      "cantidad": 100,
       "descripcion": "Un esmalte de uñas con acabado metálico que añade un toque de brillo y glamour a tus uñas."
     },
     {
+      "id": 4,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/esmalte_gel.png?alt=media&token=7dd6e7bf-a54f-4ce7-add3-ed5330b43a6c",
       "nombre": "Esmalte de uñas efecto gel",
       "marca": "JKL",
       "precio": 12.99,
+      "cantidad": 600,
       "descripcion": "Un esmalte de uñas con efecto gel que proporciona un acabado brillante y duradero, sin necesidad de lámpara UV."
     },
     {
+      "id": 5,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/esmalte_glitter.png?alt=media&token=05e1313e-2bbe-431f-89d1-729b19e0a6af",
       "nombre": "Esmalte de uñas glitter",
       "marca": "MNO",
@@ -80,54 +101,68 @@
       "descripcion": "Un esmalte de uñas con partículas de glitter que añade un toque de brillo y diversión a tus uñas."
     },
     {
+      "id": 6,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/esmalte_gel2.png?alt=media&token=d9fc66c5-ed74-4b9c-a433-875694ecb0a5",
       "nombre": "Esmalte de uñas en gel",
       "marca": "NOP",
       "precio": 13.99,
+      "cantidad": 600,
       "descripcion": "Un esmalte de uñas en gel que proporciona un acabado brillante y duradero, con una fórmula resistente a los golpes y arañazos."
     }
   ],
   "Cuidado_capilar": [
     {
+      "id": 1,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/aceite_argan.png?alt=media&token=a1d5b3f8-7dd7-441f-9000-bdc5daeef5ff",
       "nombre": "Aceite de argán",
       "marca": "ABC",
       "precio": 15.99,
+      "cantidad": 100,
       "descripcion": "Un aceite capilar rico en vitamina E y ácidos grasos, ideal para hidratar, nutrir y suavizar el cabello."
     },
     {
+      "id": 2,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/serum_reparador.png?alt=media&token=8213ec13-9257-458d-844e-8e37d7c4ac6a",
       "nombre": "Serum reparador de puntas abiertas",
       "marca": "DEF",
       "precio": 12.50,
+      "cantidad": 500,
       "descripcion": "Un serum especializado en reparar las puntas abiertas, dejando el cabello suave y con aspecto saludable."
     },
     {
+      "id": 3,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/mousse_volumen.png?alt=media&token=4a8db6a3-c976-49ed-9a66-bf5a4bdd3ccc",
       "nombre": "Mousse voluminizadora",
       "marca": "GHI",
       "precio": 9.99,
+      "cantidad": 400,
       "descripcion": "Una mousse que proporciona volumen y cuerpo al cabello, creando un aspecto más lleno y con movimiento."
     },
     {
+      "id": 4,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/spray_termico.png?alt=media&token=ce63cad2-868b-4e6d-9ccd-05c3cd0ef74c",
       "nombre": "Spray protector térmico",
       "marca": "JKL",
       "precio": 11.99,
+      "cantidad": 200,
       "descripcion": "Un spray que protege el cabello del calor de las herramientas térmicas como planchas y secadores, evitando daños y roturas."
     },
     {
+      "id": 5,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/crema_alisadora.png?alt=media&token=3047c54e-0deb-4801-84e9-f64fa500df10",
       "nombre": "Crema alisadora",
       "marca": "MNO",
       "precio": 14.50,
+      "cantidad": 500,
       "descripcion": "Una crema alisadora que ayuda a controlar el frizz y alisar el cabello, dejándolo suave y sedoso."
     },
     {
+      "id": 6,
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/gel_modelador.png?alt=media&token=a8a9d5b7-f9a0-4483-bb72-4a943e9b164c",
       "nombre": "Gel modelador",
       "marca": "PQR",
       "precio": 8.99,
+      "cantidad": 100,
       "descripcion": "Un gel para peinar que proporciona fijación y control, ideal para crear peinados y estilos diversos."
     }
   ]

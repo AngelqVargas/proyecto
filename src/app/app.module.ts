@@ -16,7 +16,8 @@ import { RostroComponent } from './components/rostro/rostro.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
 import { HttpClientModule } from '@angular/common/http';
-import { AdminComponent } from './components/admin/admin.component'
+import { AdminComponent } from './components/admin/admin.component';
+import { FormComponent } from './components/form/form.component'
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { AdminComponent } from './components/admin/admin.component'
     RostroComponent,
     FooterComponent,
     UbicacionComponent,
-    AdminComponent
+    AdminComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
