@@ -15,7 +15,8 @@ import { CabelloComponent } from './components/cabello/cabello.component';
 import { RostroComponent } from './components/rostro/rostro.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { AdminComponent } from './components/admin/admin.component'
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { HttpClientModule } from '@angular/common/http'
     CabelloComponent,
     RostroComponent,
     FooterComponent,
-    UbicacionComponent
+    UbicacionComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

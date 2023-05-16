@@ -10,6 +10,7 @@ import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { RostroComponent } from './components/rostro/rostro.component';
 import { AcrilicoComponent } from './components/acrilico/acrilico.component';
 import { CabelloComponent } from './components/cabello/cabello.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 const routes: Routes = [
   {path:'home', component: HomeComponent},
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path:'productos', component: ProductosComponent},
   {path:'ubicacion', component: UbicacionComponent},
   {path:'cabello', component: CabelloComponent},
-  {path:'acrilico', component: AcrilicoComponent},
+  {path:'acrilico', component: AcrilicoComponent}, 
+  {path:'admin', component: AdminComponent},
   {path:'rostro', component: RostroComponent},
   {path:'', redirectTo:'home', pathMatch:'full'},
   {path:'**', component: Error404Component}
