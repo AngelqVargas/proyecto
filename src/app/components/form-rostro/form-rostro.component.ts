@@ -29,7 +29,11 @@ export class FormRostroComponent {
     "precio": precio,
     "cantidad": cantidad
   }
-  this.servicio.putRostro(tem, ide )
+  this.servicio.putRostro(tem, ide).subscribe();
+ }
+ eliminarRostro(id:string){
+  const ide: number=parseInt(id)
+  this.servicio.deleteRostro(ide).subscribe();
  }
 
 
