@@ -56,15 +56,9 @@
     },
     {
       "id": 7,
-      "nombre": "Base de color BESH",
-      "precio": "23",
-      "cantidad": "2"
-    },
-    {
-      "id": 8,
-      "nombre": "base Protector",
-      "precio": "25",
-      "cantidad": "2"
+      "nombre": "base liquida",
+      "precio": "9.99",
+      "cantidad": "50"
     }
   ],
   "Esmaltes_de_unias": [
@@ -106,11 +100,9 @@
     },
     {
       "id": 5,
-      "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/esmalte_glitter.png?alt=media&token=05e1313e-2bbe-431f-89d1-729b19e0a6af",
       "nombre": "Esmalte de uñas glitter",
-      "marca": "MNO",
-      "precio": 8.5,
-      "descripcion": "Un esmalte de uñas con partículas de glitter que añade un toque de brillo y diversión a tus uñas."
+      "precio": "9.99",
+      "cantidad": "60"
     },
     {
       "id": 6,
@@ -120,6 +112,12 @@
       "precio": 13.99,
       "cantidad": 600,
       "descripcion": "Un esmalte de uñas en gel que proporciona un acabado brillante y duradero, con una fórmula resistente a los golpes y arañazos."
+    },
+    {
+      "id": 7,
+      "nombre": "acetona",
+      "precio": "14",
+      "cantidad": "1"
     }
   ],
   "Cuidado_capilar": [
@@ -167,15 +165,6 @@
       "precio": 14.5,
       "cantidad": 500,
       "descripcion": "Una crema alisadora que ayuda a controlar el frizz y alisar el cabello, dejándolo suave y sedoso."
-    },
-    {
-      "id": 6,
-      "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/gel_modelador.png?alt=media&token=a8a9d5b7-f9a0-4483-bb72-4a943e9b164c",
-      "nombre": "Gel modelador",
-      "marca": "PQR",
-      "precio": 8.99,
-      "cantidad": 100,
-      "descripcion": "Un gel para peinar que proporciona fijación y control, ideal para crear peinados y estilos diversos."
     }
   ]
 }

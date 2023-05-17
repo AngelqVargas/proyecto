@@ -15,7 +15,18 @@ export class CabelloService {
     return this.http.get(this.API_CABELLO)
   }
 
-  postRostro(user:any):Observable <any>  {
+  postCabello(user:any):Observable <any>  {
     return this.http.post(this.API_CABELLO, user)
   }
+  putCabello(user: any, id:number): Observable <any>{
+    this.API_CABELLO= `${this.API_CABELLO}/${user.id}`
+    
+    return this.http.put(this.API_CABELLO, user)
+  }
+  deleteCabello(id: number): Observable <any>{
+    this.API_CABELLO= `${this.API_CABELLO}/${id}`
+    return this.http.delete(this.API_CABELLO)
+  }
+
+
 }

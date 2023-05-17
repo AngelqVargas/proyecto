@@ -4,53 +4,43 @@
     <form class="form-inline" action="/admin">
       <div class="form-group">
         <label for="id">ID:</label>
-        <input type="number" class="form-control" id="id" #id >
+        <input type="text" class="form-control" id="id" #id />
       </div>
       <div class="form-group">
         <label for="">Nombre:</label>
-        <input type="text" class="form-control" #nom >
+        <input type="text" class="form-control" #nom />
       </div>
       <div class="form-group">
         <label for="precio">Precio:</label>
-        <input type="text" class="form-control" #precio >
+        <input type="text" class="form-control" #precio />
       </div>
       <div class="form-group">
         <label for="cantidad">Cantidad:</label>
-        <input type="text" class="form-control" #cantidad >
+        <input type="text" class="form-control" #cantidad />
       </div>
       <br /><br />
       <button
         type="button"
         class="btn btn-warning"
         (click)="
-          guardarRostro(id.value, nom.value, precio.value, cantidad.value)
+          guardarAcrilico(id.value, nom.value, precio.value, cantidad.value)
         "
       >
         AGREGAR
       </button>
-      <br><br >
+      <br /><br />
       <button
         type="button"
         class="btn btn-secondary"
         (click)="
-          actualizarRostro(id.value, nom.value, precio.value, cantidad.value)
-        "
-      >
-        Editar
-      </button>
+          actualizarAcrilico(id.value, nom.value, precio.value, cantidad.value)  ">Editar</button>
+
       <br><br>
       <button
-        type="button"
+        type="submit"
         class="btn btn-info"
-        (click)="eliminarRostro(id.value)"
-      >
-        Borrar
-      </button>
-      <br><br><br><br>
+        (click)="eliminarAcrilico(id.value)"> Borrar</button>
+      <br /><br /><br /><br />
     </form>
-
-  
-   
- 
   </nav>
 </header>

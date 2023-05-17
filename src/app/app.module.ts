@@ -21,8 +21,11 @@ import { FormComponent } from './components/form/form.component';
 import { AdminRostroComponent } from './components/admin-rostro/admin-rostro.component';
 import { AdminAcrilicoComponent } from './components/admin-acrilico/admin-acrilico.component';
 import { AdminCabelloComponent } from './components/admin-cabello/admin-cabello.component';
-import { AdminCabellolsComponent } from './components/admin-cabellols/admin-cabellols.component';
-import { FormRostroComponent } from './components/form-rostro/form-rostro.component'
+import { FormRostroComponent } from './components/form-rostro/form-rostro.component';
+import { FormAcrilicoComponent } from './components/form-acrilico/form-acrilico.component';
+import { FormCabelloComponent } from './components/form-cabello/form-cabello.component';
+import { LoginComponent } from './components/login/login.component'
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -44,14 +47,15 @@ import { FormRostroComponent } from './components/form-rostro/form-rostro.compon
     AdminRostroComponent,
     AdminAcrilicoComponent,
     AdminCabelloComponent,
-    AdminCabellolsComponent,
-    FormRostroComponent
-  ],
+    FormRostroComponent,
+    FormAcrilicoComponent,
+    FormCabelloComponent,
+    LoginComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
-  ],
+    HttpClientModule,
+    FormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })

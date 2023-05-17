@@ -23,34 +23,29 @@
         type="button"
         class="btn btn-warning"
         (click)="
-          guardarRostro(id.value, nom.value, precio.value, cantidad.value)
+          guardarCabello(id.value, nom.value, precio.value, cantidad.value)
         "
       >
         AGREGAR
       </button>
-      <br><br >
+      <br /><br />
       <button
         type="button"
         class="btn btn-secondary"
         (click)="
-          actualizarRostro(id.value, nom.value, precio.value, cantidad.value)
+          actualizarCabello(id.value, nom.value, precio.value, cantidad.value)
         "
       >
         Editar
       </button>
+
       <br><br>
       <button
-        type="button"
+        type="submit"
         class="btn btn-info"
-        (click)="eliminarRostro(id.value)"
-      >
-        Borrar
-      </button>
-      <br><br><br><br>
+        (click)="eliminarCabello(id.value)">Borra</button>
     </form>
 
-  
    
- 
   </nav>
 </header>
