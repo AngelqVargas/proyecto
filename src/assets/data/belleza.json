@@ -11,10 +11,10 @@
     },
     {
       "id": 2,
-      "image":"https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/serum_rejuvenecedor.png?alt=media&token=db37ff9b-a7a4-4c43-bead-7f5669249c67",
+      "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/serum_rejuvenecedor.png?alt=media&token=db37ff9b-a7a4-4c43-bead-7f5669249c67",
       "nombre": "Serum rejuvenecedor",
       "marca": "ABC",
-      "precio": 35.50,
+      "precio": 35.5,
       "cantidad": 200,
       "descripcion": "Un serum concentrado que ayuda a reducir los signos de envejecimiento. Mejora la textura de la piel y reduce las arrugas."
     },
@@ -32,7 +32,7 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/mascarilla_exfoliante.png?alt=media&token=bfbb5576-516b-402a-800e-f299d18f0a73",
       "nombre": "Mascarilla exfoliante",
       "marca": "GHI",
-      "precio": 18.50,
+      "precio": 18.5,
       "cantidad": 100,
       "descripcion": "Una mascarilla exfoliante que ayuda a eliminar las células muertas de la piel, dejándola suave y radiante."
     },
@@ -53,6 +53,18 @@
       "precio": 21.99,
       "cantidad": 200,
       "descripcion": "Una crema especializada para tratar el acné y reducir la apariencia de manchas. Ayuda a controlar el exceso de grasa."
+    },
+    {
+      "id": 7,
+      "nombre": "Base Liquida",
+      "precio": "50",
+      "cantidad": "3"
+    },
+    {
+      "id": 8,
+      "nombre": "base Protector",
+      "precio": "25",
+      "cantidad": "2"
     }
   ],
   "Esmaltes_de_unias": [
@@ -79,7 +91,7 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/esmalte_de_u%C3%B1as_metalico.png?alt=media&token=01bcd835-6ef4-435c-8e30-b0d74461ae3f",
       "nombre": "Esmalte de uñas metálico",
       "marca": "GHI",
-      "precio": 10.50,
+      "precio": 10.5,
       "cantidad": 100,
       "descripcion": "Un esmalte de uñas con acabado metálico que añade un toque de brillo y glamour a tus uñas."
     },
@@ -97,7 +109,7 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/esmalte_glitter.png?alt=media&token=05e1313e-2bbe-431f-89d1-729b19e0a6af",
       "nombre": "Esmalte de uñas glitter",
       "marca": "MNO",
-      "precio": 8.50,
+      "precio": 8.5,
       "descripcion": "Un esmalte de uñas con partículas de glitter que añade un toque de brillo y diversión a tus uñas."
     },
     {
@@ -125,7 +137,7 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/serum_reparador.png?alt=media&token=8213ec13-9257-458d-844e-8e37d7c4ac6a",
       "nombre": "Serum reparador de puntas abiertas",
       "marca": "DEF",
-      "precio": 12.50,
+      "precio": 12.5,
       "cantidad": 500,
       "descripcion": "Un serum especializado en reparar las puntas abiertas, dejando el cabello suave y con aspecto saludable."
     },
@@ -152,7 +164,7 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/saloon-92a8e.appspot.com/o/crema_alisadora.png?alt=media&token=3047c54e-0deb-4801-84e9-f64fa500df10",
       "nombre": "Crema alisadora",
       "marca": "MNO",
-      "precio": 14.50,
+      "precio": 14.5,
       "cantidad": 500,
       "descripcion": "Una crema alisadora que ayuda a controlar el frizz y alisar el cabello, dejándolo suave y sedoso."
     },

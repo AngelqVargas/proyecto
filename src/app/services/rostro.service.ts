@@ -22,9 +22,10 @@ export class RostroService {
     return this.http.post(this.API_ROSTRO, user)
   }
 
-  updateRostro(rostro: any): Observable <any>{
-    this.API_ROSTRO= `${this.API_ROSTRO}/${rostro.id}`
-    return this.http.put(this.API_ROSTRO, rostro)
+  putRostro(user: any): Observable <any>{
+    this.API_ROSTRO= `${this.API_ROSTRO}/${user.id}`
+    
+    return this.http.put(this.API_ROSTRO, user)
   }
   deleteRostro(id: any): Observable <any>{
     this.API_ROSTRO= `${this.API_ROSTRO}/${id}`

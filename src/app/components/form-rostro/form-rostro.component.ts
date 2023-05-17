@@ -8,6 +8,29 @@ import { RostroService } from 'src/app/services/rostro.service';
   styleUrls: ['./form-rostro.component.css']
 })
 export class FormRostroComponent {
+  constructor(private servicio: RostroService){}
+
+ guardarRostro (id:string, nom: string, precio: string, cantidad: string){
+  const ide:number=parseInt(id)
+  const tem={
+    "id":ide,
+    "nombre": nom,
+    "precio": precio,
+    "cantidad": cantidad
+  }
+  this.servicio.postRostro(tem).subscribe();
+ }
+
+ actualizarRostro(id:string, nom: string, precio: string, cantidad: string){
+  const ide:number= parseInt(id)
+  const tem={
+    "id":ide,
+    "nombre": nom,
+    "precio": precio,
+    "cantidad": cantidad
+  }
+  this.servicio.putRostro(tem, ide )
+ }
 
 
 }

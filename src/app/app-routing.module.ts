@@ -24,6 +24,7 @@ const routes: Routes = [
   {path:'cabello', component: CabelloComponent},
   {path:'acrilico', component: AcrilicoComponent}, 
   {path:'admin', component: AdminComponent},
+  {path:'form-rotro', component: FormRostroComponent},
 
   { path: 'formRostro/:id', component:FormRostroComponent},
   {path:'rostro', component: RostroComponent},

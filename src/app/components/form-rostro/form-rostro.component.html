@@ -4,7 +4,34 @@
        
 
       
-        
+        <form class="form-inline" action="/action_page.php" >
+            <div class="form-group">
+              <label for="id">ID:</label>
+              <input type="text" class="form-control" id="id"  #id>
+            </div>
+            <div class="form-group">
+                <label for="">Nombre:</label>
+                <input type="text" class="form-control"  #nom>
+              </div>
+            <div class="form-group">
+                <label for="precio">Precio:</label>
+                <input type="text" class="form-control"  #precio >
+            </div>
+            <div class="form-group">
+                <label for="cantidad">Cantidad:</label>
+                <input type="text" class="form-control" #cantidad >
+            </div>  
+           <br><br>
+            <button type="button" class="btn btn-warning" (click)="guardarRostro(
+                id.value, nom.value, precio.value, cantidad.value
+            )">ACEPTAR</button>
+          </form>
+
+
+
+
+
+
 
 
     </nav>
