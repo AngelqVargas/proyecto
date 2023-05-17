@@ -11,6 +11,7 @@ import { RostroComponent } from './components/rostro/rostro.component';
 import { AcrilicoComponent } from './components/acrilico/acrilico.component';
 import { CabelloComponent } from './components/cabello/cabello.component';
 import { AdminComponent } from './components/admin/admin.component';
+import { FormRostroComponent } from './components/form-rostro/form-rostro.component';
 
 const routes: Routes = [
   {path:'home', component: HomeComponent},
@@ -23,6 +24,8 @@ const routes: Routes = [
   {path:'cabello', component: CabelloComponent},
   {path:'acrilico', component: AcrilicoComponent}, 
   {path:'admin', component: AdminComponent},
+
+  { path: 'formRostro/:id', component:FormRostroComponent},
   {path:'rostro', component: RostroComponent},
   {path:'', redirectTo:'home', pathMatch:'full'},
   {path:'**', component: Error404Component}

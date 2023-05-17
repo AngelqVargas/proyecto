@@ -17,7 +17,12 @@ import { FooterComponent } from './components/footer/footer.component';
 import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AdminComponent } from './components/admin/admin.component';
-import { FormComponent } from './components/form/form.component'
+import { FormComponent } from './components/form/form.component';
+import { AdminRostroComponent } from './components/admin-rostro/admin-rostro.component';
+import { AdminAcrilicoComponent } from './components/admin-acrilico/admin-acrilico.component';
+import { AdminCabelloComponent } from './components/admin-cabello/admin-cabello.component';
+import { AdminCabellolsComponent } from './components/admin-cabellols/admin-cabellols.component';
+import { FormRostroComponent } from './components/form-rostro/form-rostro.component'
 
 @NgModule({
   declarations: [
@@ -35,7 +40,12 @@ import { FormComponent } from './components/form/form.component'
     FooterComponent,
     UbicacionComponent,
     AdminComponent,
-    FormComponent
+    FormComponent,
+    AdminRostroComponent,
+    AdminAcrilicoComponent,
+    AdminCabelloComponent,
+    AdminCabellolsComponent,
+    FormRostroComponent
   ],
   imports: [
     BrowserModule,

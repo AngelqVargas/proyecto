@@ -1,45 +1,6 @@
-<header class="hero">
-  <app-navbar></app-navbar>
-  <main>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>id</th>
-          <th>Producto</th>
-          <th>Precio</th>
-          <th>Cantidad</th>
-          <th>Acccion</th>
 
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let item of dataRostro">
-          <td>{{item.id}}</td>
-          <td>{{item.nombre}}</td>
-          <td>{{item.precio}}</td>
-          <td>{{item.cantidad}}</td>
-          <td> 
-            <a class="btn btn-success" routerLink="/form/{{item.id}}">Editar</a>
-            <button type="button" class="btn btn-danger" >Eliminar</button>
-        </td>
-      </tr>
+<app-admin-rostro></app-admin-rostro>
+<app-admin-acrilico></app-admin-acrilico>
 
-      <!--<tr *ngFor="let item of dataAcrilico">
-        <td>{{item.id}}</td>
-        <td>{{item.nombre}}</td>
-        <td>{{item.precio}}</td>
-        <td>{{item.cantidad}}</td>
-    </tr>
+<app-admin-cabello></app-admin-cabello>
 
-
-    <tr *ngFor="let item of dataCabello">
-        <td>{{item.id}}</td>
-        <td>{{item.nombre}}</td>
-        <td>{{item.precio}}</td>
-        <td>{{item.cantidad}}</td>
-       
-    </tr>-->
-      </tbody>
-    </table>
-  </main>
-</header>
