@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
+<<<<<<< HEAD
 import { Router } from '@angular/router';
 import { NickService } from 'src/app/services/nick.service';
+=======
+>>>>>>> master
 
 @Component({
   selector: 'app-login',
@@ -9,6 +12,7 @@ import { NickService } from 'src/app/services/nick.service';
 })
 export class LoginComponent {
 
+<<<<<<< HEAD
   constructor( private servicio: NickService, private ruta: Router){}
 
   nick:string=""
@@ -48,3 +52,7 @@ export class LoginComponent {
     })
   }
 }
+=======
+
+}
+>>>>>>> master

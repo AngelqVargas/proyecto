@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 import { RostroService } from 'src/app/services/rostro.service';
 
 @Component({
@@ -9,4 +13,8 @@ import { RostroService } from 'src/app/services/rostro.service';
 })
 export class AdminComponent {
  
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master

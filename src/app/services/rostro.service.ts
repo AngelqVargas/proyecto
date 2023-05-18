@@ -7,6 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class RostroService {
 
+
   constructor(private http:HttpClient) { }
 
   private API_ROSTRO='http://localhost:3000/Cuidado_facial'
@@ -17,5 +18,14 @@ export class RostroService {
 
   postRostro(user:any):Observable <any>  {
     return this.http.post(this.API_ROSTRO, user)
+  }
+
+  putRostro(user:any, id:number): Observable <any>{
+    this.API_ROSTRO= `${this.API_ROSTRO}/${user.id}` 
+    return this.http.put(this.API_ROSTRO, user)
+  }
+  deleteRostro(id: number): Observable <any>{
+    this.API_ROSTRO= `${this.API_ROSTRO}/${id}`
+    return this.http.delete(this.API_ROSTRO)
   }
 }

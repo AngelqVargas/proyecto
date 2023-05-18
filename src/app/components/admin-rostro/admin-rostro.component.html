@@ -1,0 +1,30 @@
+<header class="hero">
+  <app-navbar></app-navbar>
+  <main>
+    <h2 class="contact">Cuidado Facial</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>Producto</th>
+          <th>Precio</th>
+          <th>Cantidad</th>
+          <th>Acccion</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of dataRostro">
+          <td>{{ item.id }}</td>
+          <td>{{ item.nombre }}</td>
+          <td>{{ item.precio }}</td>
+          <td>{{ item.cantidad }}</td>
+          <td>
+            <a class="btn btn-warning" href="/formRostro/{{item.id}}">MODIFICARr</a
+            >
+         
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</header>

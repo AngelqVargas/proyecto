@@ -15,8 +15,17 @@ export class AcrilicoService {
     return this.http.get(this.API_ACRILICO)
   }
 
-  postRostro(user:any):Observable <any>  {
+  postAcrilico(user:any):Observable <any>  {
     return this.http.post(this.API_ACRILICO, user)
+  }
+  putAcrilico(user: any, id:number): Observable <any>{
+    this.API_ACRILICO= `${this.API_ACRILICO}/${user.id}`
+    
+    return this.http.put(this.API_ACRILICO, user)
+  }
+  deleteAcrilico(id: number): Observable <any>{
+    this.API_ACRILICO= `${this.API_ACRILICO}/${id}`
+    return this.http.delete(this.API_ACRILICO)
   }
 
 }

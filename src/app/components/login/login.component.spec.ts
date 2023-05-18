@@ -6,12 +6,19 @@ describe('LoginComponent', () => {
   let component: LoginComponent;
   let fixture: ComponentFixture<LoginComponent>;
 
+<<<<<<< HEAD
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ LoginComponent ]
     })
     .compileComponents();
 
+=======
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [LoginComponent]
+    });
+>>>>>>> master
     fixture = TestBed.createComponent(LoginComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -20,4 +27,8 @@ describe('LoginComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> master
