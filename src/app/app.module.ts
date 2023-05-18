@@ -33,7 +33,6 @@ import { FormCabelloComponent } from './components/form-cabello/form-cabello.com
 import { LoginComponent } from './components/login/login.component'
 import { FormsModule } from '@angular/forms';
 import { VentasComponent } from './components/ventas/ventas.component';
->>>>>>> master
 
 @NgModule({
   declarations: [
@@ -50,7 +49,6 @@ import { VentasComponent } from './components/ventas/ventas.component';
     RostroComponent,
     FooterComponent,
     UbicacionComponent,
-<<<<<<< HEAD
     RegistroComponent,
     PrivadoComponent,
     LoginComponent
@@ -61,23 +59,6 @@ import { VentasComponent } from './components/ventas/ventas.component';
     FormsModule,
     HttpClientModule
   ],
-=======
-    AdminComponent,
-    FormComponent,
-    AdminRostroComponent,
-    AdminAcrilicoComponent,
-    AdminCabelloComponent,
-    FormRostroComponent,
-    FormAcrilicoComponent,
-    FormCabelloComponent,
-    LoginComponent,
-    VentasComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    FormsModule],
->>>>>>> master
   providers: [],
   bootstrap: [AppComponent]
 })
