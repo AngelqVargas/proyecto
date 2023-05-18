@@ -2,6 +2,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
+import { PrivadoComponent } from './components/privado/privado.component';
+import { LoginComponent } from './components/login/login.component';
+import { LoginGuard } from './guards/login.guard';
 import { ContactosComponent } from './components/contactos/contactos.component';
 import { Error404Component } from './components/error404/error404.component';
 import { ProductosComponent } from './components/productos/productos.component';
@@ -10,12 +13,17 @@ import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { RostroComponent } from './components/rostro/rostro.component';
 import { AcrilicoComponent } from './components/acrilico/acrilico.component';
 import { CabelloComponent } from './components/cabello/cabello.component';
+<<<<<<< HEAD
+import { RegistroComponent } from './components/registro/registro.component';
+
+=======
 import { AdminComponent } from './components/admin/admin.component';
 import { FormRostroComponent } from './components/form-rostro/form-rostro.component';
 import { FormAcrilicoComponent } from './components/form-acrilico/form-acrilico.component';
 import { FormCabelloComponent } from './components/form-cabello/form-cabello.component';
 import { CarritoService } from './services/carrito.service';
 import { VentasComponent } from './components/ventas/ventas.component';
+>>>>>>> master
 
 const routes: Routes = [
   {path:'home', component: HomeComponent},
@@ -38,6 +46,9 @@ const routes: Routes = [
   { path: 'formAcrilico/:id', component:FormAcrilicoComponent},
   { path: 'formCabello/:id', component:FormCabelloComponent},
   {path:'rostro', component: RostroComponent},
+  {path:'login', component: LoginComponent},
+  {path:'privado', component:PrivadoComponent, canActivate:[LoginGuard]},
+  {path:'registro', component:RegistroComponent},
   {path:'', redirectTo:'home', pathMatch:'full'},
   {path:'**', component: Error404Component}
 ];
