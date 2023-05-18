@@ -130,5 +130,15 @@
       "precio": 8.99,
       "descripcion": "Un gel para peinar que proporciona fijación y control, ideal para crear peinados y estilos diversos."
     }
-  ]
+  ],
+  "user": [
+    {
+        "id": "cristhian",
+        "pass": "12345"
+    },
+    {
+        "id": "angel",
+        "pass": "67890"
+    }
+]
 }

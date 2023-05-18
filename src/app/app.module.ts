@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -15,7 +16,10 @@ import { CabelloComponent } from './components/cabello/cabello.component';
 import { RostroComponent } from './components/rostro/rostro.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { RegistroComponent } from './components/registro/registro.component';
+import { PrivadoComponent } from './components/privado/privado.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -31,11 +35,15 @@ import { HttpClientModule } from '@angular/common/http'
     CabelloComponent,
     RostroComponent,
     FooterComponent,
-    UbicacionComponent
+    UbicacionComponent,
+    RegistroComponent,
+    PrivadoComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     HttpClientModule
   ],
   providers: [],
