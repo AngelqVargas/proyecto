@@ -14,6 +14,8 @@ import { AdminComponent } from './components/admin/admin.component';
 import { FormRostroComponent } from './components/form-rostro/form-rostro.component';
 import { FormAcrilicoComponent } from './components/form-acrilico/form-acrilico.component';
 import { FormCabelloComponent } from './components/form-cabello/form-cabello.component';
+import { CarritoService } from './services/carrito.service';
+import { VentasComponent } from './components/ventas/ventas.component';
 
 const routes: Routes = [
   {path:'home', component: HomeComponent},
@@ -30,6 +32,8 @@ const routes: Routes = [
   {path:'form-acrilico', component: FormAcrilicoComponent},
   {path:'form-cabello', component: FormCabelloComponent},
 
+
+{ path: 'ventas/:id', component:VentasComponent},
   { path: 'formRostro/:id', component:FormRostroComponent},
   { path: 'formAcrilico/:id', component:FormAcrilicoComponent},
   { path: 'formCabello/:id', component:FormCabelloComponent},

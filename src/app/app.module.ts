@@ -26,6 +26,7 @@ import { FormAcrilicoComponent } from './components/form-acrilico/form-acrilico.
 import { FormCabelloComponent } from './components/form-cabello/form-cabello.component';
 import { LoginComponent } from './components/login/login.component'
 import { FormsModule } from '@angular/forms';
+import { VentasComponent } from './components/ventas/ventas.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { FormsModule } from '@angular/forms';
     FormRostroComponent,
     FormAcrilicoComponent,
     FormCabelloComponent,
-    LoginComponent],
+    LoginComponent,
+    VentasComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

@@ -11,10 +11,14 @@ export class RostroComponent {
   constructor(private servicio: RostroService) {}
   
   dataRostro: any;
+  
 
   ngOnInit() {
     this.servicio.getRostro().subscribe(rostro => {
       this.dataRostro = rostro;
     })
+
+
+
   }
 }
