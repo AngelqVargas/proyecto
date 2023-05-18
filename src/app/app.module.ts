@@ -17,11 +17,8 @@ import { RostroComponent } from './components/rostro/rostro.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
 import { HttpClientModule } from '@angular/common/http';
-<<<<<<< HEAD
 import { RegistroComponent } from './components/registro/registro.component';
 import { PrivadoComponent } from './components/privado/privado.component';
-import { LoginComponent } from './components/login/login.component';
-=======
 import { AdminComponent } from './components/admin/admin.component';
 import { FormComponent } from './components/form/form.component';
 import { AdminRostroComponent } from './components/admin-rostro/admin-rostro.component';
@@ -30,8 +27,7 @@ import { AdminCabelloComponent } from './components/admin-cabello/admin-cabello.
 import { FormRostroComponent } from './components/form-rostro/form-rostro.component';
 import { FormAcrilicoComponent } from './components/form-acrilico/form-acrilico.component';
 import { FormCabelloComponent } from './components/form-cabello/form-cabello.component';
-import { LoginComponent } from './components/login/login.component'
-import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './components/login/login.component';
 import { VentasComponent } from './components/ventas/ventas.component';
 
 @NgModule({
@@ -51,6 +47,7 @@ import { VentasComponent } from './components/ventas/ventas.component';
     UbicacionComponent,
     RegistroComponent,
     PrivadoComponent,
+    AdminRostroComponent,
     LoginComponent
   ],
   imports: [
