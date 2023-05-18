@@ -13,7 +13,6 @@ import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { RostroComponent } from './components/rostro/rostro.component';
 import { AcrilicoComponent } from './components/acrilico/acrilico.component';
 import { CabelloComponent } from './components/cabello/cabello.component';
-<<<<<<< HEAD
 import { RegistroComponent } from './components/registro/registro.component';
 
 =======
