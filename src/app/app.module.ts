@@ -21,6 +21,14 @@ import { RegistroComponent } from './components/registro/registro.component';
 import { PrivadoComponent } from './components/privado/privado.component';
 import { LoginComponent } from './components/login/login.component';
 import { VentasComponent } from './components/ventas/ventas.component';
+import { AdminRostroComponent } from './components/admin-rostro/admin-rostro.component';
+import { FormAcrilicoComponent } from './components/form-acrilico/form-acrilico.component';
+import { FormCabelloComponent } from './components/form-cabello/form-cabello.component';
+import { FormRostroComponent } from './components/form-rostro/form-rostro.component';
+import { AdminComponent } from './components/admin/admin.component';
+import { FormComponent } from './components/form/form.component';
+import { AdminAcrilicoComponent } from './components/admin-acrilico/admin-acrilico.component';
+import { AdminCabelloComponent } from './components/admin-cabello/admin-cabello.component';
 
 @NgModule({
   declarations: [
@@ -56,22 +64,7 @@ import { VentasComponent } from './components/ventas/ventas.component';
     FormsModule,
     HttpClientModule
   ],
-=======
-    AdminComponent,
-    FormComponent,
-    AdminRostroComponent,
-    AdminAcrilicoComponent,
-    AdminCabelloComponent,
-    FormRostroComponent,
-    FormAcrilicoComponent,
-    FormCabelloComponent,
-    LoginComponent,
-    VentasComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    FormsModule],
+
   providers: [],
   bootstrap: [AppComponent]
 })

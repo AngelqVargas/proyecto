@@ -47,6 +47,12 @@ body{
     padding: var(--padding-container);
     color: #fff;
 } 
+.inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}
 .logo{
     height:50px;
     margin-left: 40%;
