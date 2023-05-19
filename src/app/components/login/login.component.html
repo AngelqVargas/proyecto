@@ -1,6 +1,7 @@
 <header class="hero">
     <app-navbar></app-navbar>
     <form (ngSubmit)="login()">
+    <div class=" inputContainer">
         <div class="mb-3 mt-3">
           <label for="nick" class="form-label">Nick:</label>
           <input type="text" class="form-control" id="nick" 
@@ -13,5 +14,6 @@
           placeholder="Enter password" name="pswd" [(ngModel)]="pass">
         </div>
          <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
     </form>
 </header>
