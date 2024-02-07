@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { RostroService } from 'src/app/services/rostro.service';
+import { RostroService} from 'src/app/services/rostro.service';
 
 @Component({
   selector: 'app-admin',

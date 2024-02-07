@@ -48,7 +48,15 @@ import { VentasComponent } from './components/ventas/ventas.component';
     RegistroComponent,
     PrivadoComponent,
     AdminRostroComponent,
-    LoginComponent
+    LoginComponent,
+    VentasComponent,
+    FormCabelloComponent,
+    FormAcrilicoComponent,
+    FormRostroComponent,
+    AdminCabelloComponent,
+    FormComponent,
+    AdminAcrilicoComponent,
+    AdminComponent 
   ],
   imports: [
     BrowserModule,
